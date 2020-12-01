@@ -482,8 +482,8 @@ summary {
 
 @media screen and (max-width: 767px) {
   .menu {
-    background: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(./img/Headerimg.jpg);
-    background: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(./img/Headerimg.jpg);
+    background: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../img/Headerimg.jpg);
+    background: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../img/Headerimg.jpg);
     background-position: center;
     background-repeat: no-repeat;
     text-align: center;
@@ -3038,8 +3038,8 @@ textarea {
 @media screen and (min-width: 1200px) {
   .menu {
     display: block;
-    background: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(./goit-markup-hw-08/img/Img7.jpg);
-    background: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(./goit-markup-hw-08/img/Img7.jpg);
+    background: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(./img/Img7.jpg);
+    background: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(./img/Img7.jpg);
     background-position: center;
     background-repeat: no-repeat;
     text-align: center;
