@@ -579,16 +579,16 @@ summary {
     border-radius: 4px;
   }
   .box::before {
-    background-image: url(/img/Vector.png);
+    background-image: url(../img/Vector.png);
   }
   .box1::before {
-    background-image: url(/img/Vector1.png);
+    background-image: url(../img/Vector1.png);
   }
   .boxx::before {
-    background-image: url(/img/Vector2.png);
+    background-image: url(../img/Vector2.png);
   }
   .boxxx::before {
-    background-image: url(/img/astronaut1.png);
+    background-image: url(../img/astronaut1.png);
   }
 }
 
@@ -1765,16 +1765,16 @@ summary {
     border-radius: 4px;
   }
   .box::before {
-    background-image: url(/img/Vector.png);
+    background-image: url(../img/Vector.png);
   }
   .box1::before {
-    background-image: url(/img/Vector1.png);
+    background-image: url(../img/Vector1.png);
   }
   .boxx::before {
-    background-image: url(/img/Vector2.png);
+    background-image: url(../img/Vector2.png);
   }
   .boxxx::before {
-    background-image: url(/img/astronaut1.png);
+    background-image: url(../img/astronaut1.png);
   }
 }
 
