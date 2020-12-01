@@ -1,0 +1,41 @@
+@import "./base/normalize";
+@import "./units/variables";
+@import "./mobile/body";
+@import "./mobile/header";
+@import"./mobile/menu";
+@import"./mobile/skills";
+@import"./mobile/client";
+// @import"./mobile/form";
+@import"./mobile/backdrop";
+@import"./mobile/occupation";
+@import"./mobile/team";
+@import"./mobile/footerlof";
+@import"./mobile/portfolio";
+
+@import "./tablet/body";
+@import "./tablet/header";
+@import"./tablet/menu";
+@import"./tablet/skills"; 
+@import"./tablet/occupation";
+@import"./tablet/client";
+@import"./tablet/form";
+@import"./tablet/backdrop";
+
+@import"./tablet/portfolio";
+@import"./tablet/team";
+@import"./tablet/footerlof";
+
+
+
+// @import "./descktop/body";
+@import "./descktop/header";
+@import"./descktop/menu";
+@import"./descktop/skills";
+@import"./descktop/client";
+@import"./descktop/form";
+@import"./descktop/backdrop";
+ @import"./descktop/occupation";
+@import"./descktop/portfolio";
+@import"./descktop/team";
+ @import"./descktop/footerlof";
+

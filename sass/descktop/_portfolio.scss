@@ -1,0 +1,202 @@
+@media screen and (min-width:1200px)
+{
+
+ul
+{ 
+    list-style-type: none;
+}
+body {
+
+    font-family: 'Roboto', sans-serif;
+    font-style: 400;
+    list-style-type: none;
+    margin: 0;
+    
+}
+.contaner
+  { margin-left: auto;
+    margin-right: auto;
+    width:1200px;
+}
+
+.por11
+{justify-content:center;}
+
+.portfol
+{   padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+
+.por1
+{ 
+    display: flex;
+    margin: 0;
+    
+}
+
+.page1{
+    
+    
+    padding: 6px 22px 6px 22px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    letter-spacing: 0.03em;
+    background-color: coral;
+    color: $lastColor;
+    background: #F5F4FA;
+    border-radius: 4px;
+    transition-property: background, color, box-shadow;
+    transition-timing-function: $time-fuction;
+    transition-duration: 250ms;
+
+
+&:hover{
+    background: $borderhoverColor;
+    color:$primaryColor;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+}}
+
+.page:not(:last-child) 
+{margin-right: 8px;}
+
+
+.signature-page1
+{
+    padding: 0;
+    padding-top: 50px;
+    display: flex; 
+    flex-wrap: wrap;
+    
+}
+
+
+.porfadress
+{
+    padding: 0;
+    padding-left: 250px;
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+    transition-property: color;
+    transition-timing-function: $time-fuction;
+    transition-duration: 5000ms;
+    transition-delay: 50ms;
+    }
+    
+.item2
+{
+  
+    margin-right: 30px;
+    padding: 0;
+    
+}
+
+
+.item-text
+{
+    font-family: $primaryfamilyf;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    width: 322px;
+    height: 168px;
+    margin:  62px 28px 62px 28px ;
+    line-height: 1.5556;
+
+    letter-spacing: 0.03em;
+    color:$primaryColor;
+
+}
+
+
+.border {
+    border: 1px solid #EEEEEE;
+    
+    transition-property: box-shadow;
+    transition-timing-function: $time-fuction;
+    transition-duration: 250ms;
+    margin-bottom: 30px;
+            
+}
+.border:nth-child(3n+3)
+{
+    
+    margin-right:0px;
+   
+
+}
+
+.border:hover .item-porf,
+.border:hover
+{
+    transform: translateY(0);
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+.item-porfolio
+{
+    position: relative;
+    line-height: 0;
+    overflow: hidden;
+
+   
+}
+
+.item-porf
+{
+    position: absolute;
+    
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(33, 150, 243, 0.9);
+    transform: translateY(100%);
+    transition: transform 250ms $time-fuction;
+    
+
+}
+
+
+
+
+.porfimg
+{   padding-top: 20px;
+    padding-bottom: 19px;
+    padding-right: 23px;
+    padding-left: 23px;
+    
+    /*margin-bottom: 30px;*/}
+    
+.signature-page1-sec{
+
+    margin: 0;
+    font-style: normal;
+    font-weight: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.9;
+    letter-spacing: 0.03em;
+    color: #757575;
+    }
+    
+
+
+.signaturep2
+{
+    margin: 0;
+    padding-bottom: 4px;
+    font-family: $primaryfamilyf;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 2;
+    letter-spacing: 0.03em;
+    color: $lastColor;
+    /*padding-bottom: 19px;
+    padding-top: 4px;
+    padding-right: 23px;
+    padding-left: 23px;*/
+}
+}

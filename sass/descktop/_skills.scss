@@ -1,0 +1,91 @@
+@media screen and (min-width:1200px)
+{
+.skills
+    {padding-top: 94px;
+
+    &-adress
+    {
+        padding: 0;
+        padding-left: 250px;
+        display: flex;
+        justify-content: flex-end;
+        margin: 0;
+       
+        }}
+        
+.section1
+{
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0px;    
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.1;
+    letter-spacing: 0.03em;
+    color: $lastColor;
+
+}
+.section1-second
+{
+    padding: 0px;
+    margin-top: 10px; 
+    margin-bottom: 0;
+    margin-right: 30px; 
+    margin-left: 0;
+    width: 270px;
+    height: 75px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+.fig 
+    {
+        width: 270px;
+        object-fit:cover;  
+        margin: 0;
+    }
+    
+.fig > img {
+    display: block;
+    max-width: 100%;}
+
+.list-itemm {
+    margin-right: 0;
+} 
+
+.list-item::before
+{
+    content: "";
+    display: flex;
+    height:120px ;
+    padding: 10px;
+    margin-bottom: 30px;
+    margin-right: 30px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #F5F4FA;
+    border-radius: 4px;
+}
+.box::before {
+    background-image: url(../img/Vector.png);
+    
+}
+.box1::before {
+       background-image: url(../img/Vector1.png);
+    }
+
+.boxx::before {
+   
+    background-image: url(../img/Vector2.png);
+   
+}   
+
+.boxxx::before {
+    
+       background-image: url(../img/astronaut1.png) ;
+    }
+.it:before{margin-right: 0;}
+}

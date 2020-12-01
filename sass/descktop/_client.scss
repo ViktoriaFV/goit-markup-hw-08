@@ -1,0 +1,134 @@
+@media screen and (min-width:1200px)
+{
+ul
+{ 
+    list-style-type: none;
+}
+body {
+
+    font-family: 'Roboto', sans-serif;
+    font-style: 400;
+    list-style-type: none;
+    margin: 0;
+    
+}
+.contaner
+  { margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+}
+
+.client {
+    padding-top: 94px;
+    padding-bottom: 50px;
+    display: block; 
+    
+&-iconn{
+    margin: 0;
+    padding: 0;
+    padding-bottom: 94px;
+    padding-bottom: 30px;
+    padding-inline-start: 0px;
+    display: inline-block;
+    text-align: center; 
+    
+   /*padding-left: 30px;*/
+   /*padding-right: 30px;*/
+}
+    
+    
+}
+.post{
+
+    margin: 0;
+    padding: 0;
+    padding-bottom: 50px;
+    display: block;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1.16667;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+.clients
+{
+    margin: 0;
+    padding: 0;
+    margin-right: 30px;
+    width: 166px;
+    height: 90px;
+    border: 1px solid $borderColor;
+    box-sizing: border-box;
+    border-radius: 4px;
+    text-align: center;
+    display: inline-block;
+    fill:$borderColor;
+
+    transition-property: border;
+    transition-timing-function: $time-fuction;
+    transition-duration: 250ms;
+    &:hover{
+    border: 1px solid  $borderhoverColor;}
+    &-foto
+    {
+    text-align: center;
+    display: block;
+    fill:#a7a7a7;
+    margin: 0;
+    padding: 0;
+    transition-property: fill;
+    transition-timing-function: $time-fuction;
+    transition-duration: 250ms;
+    &:hover{
+    fill:$borderhoverColor;
+}
+}
+}
+
+
+
+
+
+
+.client-last{
+    margin: 0px;
+}
+.client-foto
+{
+    text-align: center;
+    display: block;
+    fill:$borderColor;
+    margin: 0;
+    padding: 0;
+    transition-property: fill;
+    transition-timing-function:$time-fuction;
+    transition-duration: 250ms;
+}
+.client-foto1 {
+   padding-top: 20px;
+   padding-bottom: 20.77px;
+}
+.client-foto2 {
+    padding-top: 19px;
+    padding-bottom: 19px;
+}
+.client-foto3 {
+    padding-top: 24px;
+    padding-bottom: 23.4px;
+}
+.client-foto4 {
+    padding-top: 24px;
+    padding-bottom: 23.98px;
+}
+.client-foto5 {
+    padding-top: 21px;
+    padding-bottom: 22px;
+}
+.client-foto6 {
+    padding-top: 22px;
+    padding-bottom: 22.56px;
+}
+}

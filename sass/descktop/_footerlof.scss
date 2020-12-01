@@ -1,0 +1,246 @@
+@media screen and (min-width:1200px)
+
+{
+.footer
+{  
+   
+    padding: 0;
+    margin: 0;
+   /* background: darkmagenta;*/
+    
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    color: $primaryColor;  
+   
+   }
+
+
+.foter-contact
+{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.6);
+ }
+ .footerlof
+  {
+    background: #2F303A;
+      padding-top: 60px;
+      padding-bottom: 60px;
+    /*background: chartreuse;*/}
+    .footerlofo
+    {
+       font-family: $primaryfamily;
+       padding-bottom: 30px;
+    }
+ .footera1:not(:last-child) 
+ {
+     padding-bottom: 8px;
+    padding-left: 0;
+    margin: 0;
+}
+.foter-flex{  
+    display: flex;
+    align-items: baseline;}
+   
+    .iconnf{
+        margin: 0;
+        padding: 0;
+        padding-bottom: 30px;
+        padding-inline-start: 0px;
+        display: inline-flex; 
+        justify-content: center;
+        align-items: center;
+        
+       /*padding-left: 30px;*/
+       /*padding-right: 30px;*/
+    }
+    .to
+    { 
+    fill:$primaryColor;
+    display: inline-flex; 
+    justify-content: center;
+    align-items: center;}
+
+    .foter-icon
+    {
+        margin: 0;
+        
+        padding: 0;
+        padding-bottom: 20px;
+        
+        
+        padding-bottom: 20px;
+        text-transform: uppercase;
+        display: flex;
+        font-size: 14px;
+        line-height: 1.1459;
+        letter-spacing: 0.03em;
+        font-family: $primaryfamilyf;
+        font-weight: bold;
+        color: $primaryColor;
+    }
+
+
+    
+   
+    .icon-foter{
+        margin-right: 10px;
+        width:44px;
+        height:44px;
+        padding: 0;
+        border: none;
+        display: flex; 
+        justify-content: center;
+        border-radius: 50%;
+        align-items: center;
+        background-color: rgba(255, 255, 255, 0.1);
+        
+        transition-property:background-color,  fill;
+        transition-timing-function: $time-fuction;
+        transition-duration: 250ms;
+    }
+    .buton-iconf
+    {
+        fill: #AFB1B8;
+        display: block;
+        transition-property: fill;
+        transition-timing-function: $time-fuction;
+        transition-duration: 250ms;
+                  
+    }
+    .buton-iconf:hover{
+        fill:$primaryColor;
+      
+    }
+    
+    .iconlast{ 
+        margin:0;
+    }
+    .icon-foter{&:hover{
+        background-color: #2196F3;
+        fill:$primaryColor;}
+    }
+    .foter-iconr
+    {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+
+        color: $primaryColor;
+    
+        margin: 0;
+        margin-left: 154px;
+        
+        padding-bottom: 20px;
+                    
+        display: flex;
+    }
+
+     .foterr-description
+
+    {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .foterr-description2
+    { 
+        display: flex;
+       
+        margin: 0;
+        margin-left: 154px;
+           
+        padding-left: 16px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        font-family: $primaryfamilyf;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 20px;
+        letter-spacing: 0.03em;
+
+        color: rgba(255, 255, 255, 0.6);
+        background: #2F303A;
+       
+        
+        width: 305px;
+        height: 50px;
+        
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        box-sizing: border-box;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+        border-radius: 4px; 
+    }
+    
+    .button-futer
+    {
+        padding-left: 29px;
+        padding-right: 62px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        display: flex;
+        margin-left: 12px;
+       
+        width: 200px;
+        height: 50px;
+      
+
+        background: $borderhoverColor;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+        border-radius: 4px;
+
+        font-family: $primaryfamilyf;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 30px;
+       
+        letter-spacing: 0.06em;
+
+        color: #FFFFFF;
+    }
+    .button-img
+    {
+        width: 24px;
+        height: 24px;
+        margin-left: 10px;
+        
+    }
+
+        .logof
+    {
+        align-items:baseline;
+        font-family: $primaryfamily;
+        display: flex;
+        text-align: center;
+        margin: 0;
+        
+        text-decoration: none;
+        list-style-type: none;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 1.2;
+        letter-spacing: 0.03em;
+        color: #2196F3;
+    }
+
+        .logo-foter
+    { 
+        padding: 0;
+        padding-right: 94px;
+        margin: 0;
+        /*margin-right: 93px;*/
+        color: #FFFFFF;
+        font-family: $primaryfamily;
+    }
+        .logor
+    {padding-right:156px ;
+    
+    }
+}

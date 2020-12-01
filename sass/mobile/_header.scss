@@ -1,0 +1,220 @@
+@media screen and (max-width:767px)
+{
+ .header
+    {
+        border-bottom: 1px solid #ECECEC; 
+        position: relative;
+    }
+    .header-flax
+{
+    /*background: darkblue;*/
+    margin: 0;
+    align-items:center;
+    
+}
+.header-menu
+{
+    padding: 0;
+    margin: 0;
+    display: block;
+    text-align: center;
+}
+   
+    .heder-icon{
+    
+        margin: 0;
+        
+    }
+          .heder-close
+    {
+              
+        margin: 0;
+        &:hover
+        {
+            color: #2196F3;
+        }
+          }
+    .logo {
+        
+        margin: 0;
+        padding: 0;
+        display: flex; 
+        align-items:center;
+        justify-content: space-between;
+               
+        position: relative;
+        /*padding-bottom: 25px;*/
+        margin-right: auto;
+             
+        list-style-type: none;
+        color: #070707;
+        font-family: Raleway;
+        
+    }
+      
+    .logo1
+    {
+        align-items:baseline;
+        font-family: $primaryfamily;
+        display: flex;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+        padding-left: 15px;
+
+        text-decoration: none;
+        list-style-type: none;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 1.2;
+        letter-spacing: 0.03em;
+        color: #2196F3;
+    }
+    .logo-header
+    { 
+        padding: 0;
+        padding-bottom: 16px;
+        padding-top: 16px;
+        
+        
+        margin: 0;
+        color: #050505;
+        font-family: $primaryfamily;
+    }
+      
+    .menu-buton
+    {
+        background-color: #ffffff;
+        display: inline-flex;
+        padding: 0;
+        margin: 0;
+        margin-right: 25px;
+        border: none;
+        
+       
+     }
+    .menu-buton .heder-icon
+    {display: none;}
+    .menu-buton.is-open .heder-icon
+    {display: block;}
+    .menu-buton.is-open .heder-close
+    {display: none;}
+
+    .content-menu{
+        
+        display: none;
+        position: absolute;
+        background-color: $primaryColor;
+        list-style-type: none; 
+        top: 64px;
+        left: 0;
+        width: 100%;
+        height: 393px;
+        padding: 28px;
+        padding: 0;
+        margin: 0;
+       
+        
+        text-align: center;
+        &.is-open
+        {
+            display:block;
+            
+        }
+    }
+    .logo-b
+    {   font-family: Roboto;
+        position: relative;
+        padding: 0;
+       
+        margin: 0;
+        text-decoration: none;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 21px;
+        padding-top: 50px;
+        /* identical to box height */
+        
+        letter-spacing: 0.02em;
+        
+        color: #212121;
+        &:hover
+
+        {
+            color: #2196F3;
+        }
+        
+ &::after
+ {
+     position: absolute;
+     content: "";
+     display: block;
+     padding: 0;
+   
+     margin: 0;
+     left: 0;
+     bottom: 0;
+     width: 100%;
+     height: 4px;
+     background-color:  #2196F3;
+     opacity: 0;
+     border-radius: 2px;
+     transition:opacity 250ms $time-fuction;
+    
+    
+  }
+ 
+}   
+
+        .itemp {
+        margin-top: 52px;
+        }
+        .itemk {
+        margin-top: 40px;
+        margin-bottom: 60px;
+                }
+        .items {
+        margin-top: 60px;
+        
+        }
+
+                
+.adres {
+    font-family: $primaryfamilyf;
+    display: block;
+    align-items: center;
+    padding-bottom: 16px;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+    color: #757575;
+    transition-property: color;
+    transition-timing-function: $time-fuction;
+    transition-duration: 250ms;
+        &:hover
+
+        {
+            color: #2196F3;
+        }
+    }
+    .logo-b:focus,
+    .logo-b:active,
+    .logo-b:active::after,
+    .logo-b:focus::after 
+    {   
+        opacity: 1; 
+        color:#2196F3;
+    } 
+    .header-icom 
+    {
+        padding: 0;
+        margin: 0;
+        margin-right: 10px;
+        fill:currentColor;
+    }
+
+}
