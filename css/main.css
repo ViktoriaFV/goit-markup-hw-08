@@ -2936,7 +2936,7 @@ textarea {
   .logo {
     margin: 0;
     padding: 0;
-    padding-top: 24px;
+    padding-top: 26px;
     padding-bottom: 25px;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -3019,7 +3019,7 @@ textarea {
     text-decoration: none;
     font-style: normal;
     font-weight: 500;
-    font-size: 18px;
+    font-size: 14px;
     line-height: 21px;
     padding-top: 50px;
     /* identical to box height */
