@@ -281,12 +281,19 @@ summary {
     margin: 0;
   }
   .contaner {
-    padding-right: 15px;
-    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 480px;
   }
 }
 
 @media screen and (max-width: 767px) {
+  .footerlof {
+    background: #2F303A;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    width: 480px;
+  }
   .header {
     border-bottom: 1px solid #ECECEC;
     position: relative;
@@ -487,8 +494,10 @@ summary {
     background-repeat: no-repeat;
     text-align: center;
     margin: 0;
+    margin-right: auto;
+    margin-left: auto;
     letter-spacing: 0.06em;
-    width: 100%;
+    width: 480px;
     height: 400px;
     padding-top: 118px;
   }
@@ -509,7 +518,7 @@ summary {
     margin-right: auto;
     margin-left: auto;
     color: #FFFFFF;
-    width: 360px;
+    width: 100%;
     height: 84px;
   }
   .zakazat {
@@ -940,7 +949,9 @@ summary {
 @media screen and (max-width: 767px) {
   .team1 {
     padding-top: 94px;
-    width: 100%;
+    width: 486px;
+    margin-right: auto;
+    margin-left: auto;
     display: block;
     background: #F5F4FA;
     /*background-color: blueviolet;*/
@@ -980,7 +991,7 @@ summary {
     color: #212121;
   }
   .fig {
-    width: 418px;
+    width: 448px;
     -o-object-fit: cover;
        object-fit: cover;
     margin: 0;
@@ -1105,6 +1116,8 @@ summary {
     color: rgba(255, 255, 255, 0.6);
   }
   .footerlof {
+    margin-right: auto;
+    margin-left: auto;
     background: #2F303A;
     padding-top: 60px;
     padding-bottom: 60px;
@@ -1478,6 +1491,8 @@ summary {
   .contaner {
     padding-right: 15px;
     padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
     width: 768px;
   }
 }
@@ -1485,6 +1500,8 @@ summary {
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .header {
     border-bottom: 1px solid #ECECEC;
+    margin-right: auto;
+    margin-left: auto;
   }
   .menu-buton {
     display: none;
@@ -1532,6 +1549,8 @@ summary {
     padding: 0;
     padding-bottom: 16px;
     padding-top: 16px;
+    margin-right: auto;
+    width: 768px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1553,7 +1572,7 @@ summary {
     text-align: center;
     margin: 0;
     padding: 0;
-    padding-left: 10px;
+    padding-left: 45px;
     text-decoration: none;
     list-style-type: none;
     font-weight: 700;
@@ -1662,6 +1681,7 @@ summary {
     background-position: center;
     background-repeat: no-repeat;
     text-align: center;
+    width: 100%;
     letter-spacing: 0.06em;
     padding-bottom: 200px;
     padding-top: 200px;
@@ -1700,12 +1720,13 @@ summary {
   .contaner {
     margin-left: auto;
     margin-right: auto;
-    width: 768px;
+    width: 100%;
   }
   .skills {
     padding-top: 94px;
   }
   .skills-adress {
+    width: 100%;
     padding: 0;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1716,8 +1737,6 @@ summary {
         -ms-flex-pack: center;
             justify-content: center;
     margin: 0;
-    padding-right: 15px;
-    padding-left: 15px;
   }
   .section1 {
     text-transform: uppercase;
@@ -1839,6 +1858,12 @@ summary {
   }
   .clients:nth-child(n+3) {
     margin-bottom: 0;
+  }
+  .clients:nth-child(n+3) {
+    margin-bottom: 0;
+  }
+  .clients:nth-child(3n+3) {
+    margin-right: 0;
   }
   .clients:hover {
     border: 1px solid #2196F3;
@@ -2464,7 +2489,7 @@ textarea {
   .contaner {
     margin-left: auto;
     margin-right: auto;
-    width: 768px;
+    width: 100%;
   }
   .team1 {
     padding-top: 94px;
@@ -2477,6 +2502,7 @@ textarea {
         background-color: blueviolet;*/
   }
   .team1-signature {
+    width: 100%;
     /*margin-bottom: 94px;*/
     padding: 0;
     margin-bottom: 0;
@@ -2561,10 +2587,6 @@ textarea {
   }
   .borderk:nth-child(2n+1) {
     margin-right: 30px;
-    margin-left: 15px;
-  }
-  .borderk:nth-child(2n+2) {
-    margin-right: 15px;
   }
   .borderk-sigfoto {
     margin-top: 30px;
@@ -3177,6 +3199,8 @@ textarea {
     margin-left: auto;
     margin-right: auto;
     width: 1200px;
+    padding-right: 15px;
+    padding-left: 15px;
   }
   .client {
     padding-top: 94px;
@@ -3738,6 +3762,8 @@ textarea {
     margin-left: auto;
     margin-right: auto;
     width: 1200px;
+    padding-right: 15px;
+    padding-left: 15px;
   }
   .por11 {
     -webkit-box-pack: center;
