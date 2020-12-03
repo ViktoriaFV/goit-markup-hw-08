@@ -292,7 +292,7 @@ summary {
     background: #2F303A;
     padding-top: 60px;
     padding-bottom: 60px;
-    width: 100%;
+    max-width: 100%;
   }
   .header {
     border-bottom: 1px solid #ECECEC;
@@ -498,7 +498,7 @@ summary {
     margin-right: auto;
     margin-left: auto;
     letter-spacing: 0.06em;
-    width: 100%;
+    max-width: 480px;
     height: 400px;
     padding-top: 118px;
   }
@@ -1322,7 +1322,7 @@ summary {
   .portfol {
     padding-top: 94px;
     padding-bottom: 94px;
-    width: 480px;
+    max-width: 480px;
   }
   .por1 {
     display: -webkit-box;
@@ -1678,6 +1678,7 @@ summary {
     letter-spacing: 0.06em;
     padding-bottom: 200px;
     padding-top: 200px;
+    margin: auto;
   }
   .menu1 {
     margin: 0;
@@ -1798,8 +1799,6 @@ summary {
   .client {
     padding-top: 60px;
     padding-bottom: 60px;
-    margin-right: 15px;
-    margin-left: 15px;
     display: block;
   }
   .client-iconn {
