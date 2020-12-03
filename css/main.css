@@ -292,7 +292,7 @@ summary {
     background: #2F303A;
     padding-top: 60px;
     padding-bottom: 60px;
-    width: 480px;
+    width: 100%;
   }
   .header {
     border-bottom: 1px solid #ECECEC;
@@ -498,7 +498,7 @@ summary {
     margin-right: auto;
     margin-left: auto;
     letter-spacing: 0.06em;
-    width: 480px;
+    width: 100%;
     height: 400px;
     padding-top: 118px;
   }
@@ -611,18 +611,13 @@ summary {
     list-style-type: none;
     margin: 0;
   }
-  .contaner {
-    margin-left: auto;
-    margin-right: auto;
-    width: 480px;
-  }
   .client-iconn {
     margin: 0;
     padding: 0;
     padding-bottom: 30px;
     -webkit-padding-start: 0px;
             padding-inline-start: 0px;
-    width: 480px;
+    max-width: 480px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -950,7 +945,7 @@ summary {
 @media screen and (max-width: 767px) {
   .team1 {
     padding-top: 94px;
-    width: 486px;
+    max-width: 100%;
     margin-right: auto;
     margin-left: auto;
     display: block;
@@ -1679,7 +1674,7 @@ summary {
     background-position: center;
     background-repeat: no-repeat;
     text-align: center;
-    width: 100%;
+    max-width: 768px;
     letter-spacing: 0.06em;
     padding-bottom: 200px;
     padding-top: 200px;
@@ -2645,7 +2640,7 @@ textarea {
   .contaner {
     margin-left: auto;
     margin-right: auto;
-    width: 768px;
+    max-width: 768px;
   }
   .footer {
     padding: 0;
