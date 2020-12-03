@@ -283,7 +283,7 @@ summary {
   .contaner {
     margin-right: auto;
     margin-left: auto;
-    width: 480px;
+    max-width: 480px;
   }
 }
 
