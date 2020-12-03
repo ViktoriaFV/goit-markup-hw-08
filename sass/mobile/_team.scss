@@ -60,14 +60,14 @@
     }
     .fig 
     {
-        width: 448px;
+        width: 100%;
         object-fit:cover;  
         margin: 0;
     }
     
 .fig > img {
     display: block;
-    max-width: 100%;}
+    width: 100%;}
     
     .title-t
     {

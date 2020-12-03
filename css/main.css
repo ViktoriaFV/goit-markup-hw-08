@@ -293,6 +293,7 @@ summary {
     padding-top: 60px;
     padding-bottom: 60px;
     width: 480px;
+    z-index: 10;
   }
   .header {
     border-bottom: 1px solid #ECECEC;
@@ -306,6 +307,7 @@ summary {
             align-items: center;
   }
   .header-menu {
+    z-index: 10;
     padding: 0;
     margin: 0;
     display: block;
@@ -387,6 +389,7 @@ summary {
     display: none;
   }
   .content-menu {
+    z-index: 10;
     display: none;
     position: absolute;
     background-color: #FFFFFF;
@@ -991,14 +994,14 @@ summary {
     color: #212121;
   }
   .fig {
-    width: 448px;
+    width: 100%;
     -o-object-fit: cover;
        object-fit: cover;
     margin: 0;
   }
   .fig > img {
     display: block;
-    max-width: 100%;
+    width: 100%;
   }
   .title-t {
     margin: 0;
@@ -1321,15 +1324,12 @@ summary {
   .contaner {
     margin-left: auto;
     margin-right: auto;
-  }
-  .por11 {
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    width: 480px;
   }
   .portfol {
     padding-top: 94px;
     padding-bottom: 94px;
+    width: 480px;
   }
   .por1 {
     display: -webkit-box;
